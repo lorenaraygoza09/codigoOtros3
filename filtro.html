@@ -11,9 +11,10 @@
 <body>
 <!-- cambie el div por un section -->
   <section>
-    <!-- Cambie seleccioná por escribe -->
-      <input type="text" placeholder="Escribe un color o tipo" aria-label="Filtro de productos">
-      <button>Filtrar</button>
+    <!-- añadi etiqueta label para mejorar la accesibilidad -->
+   <label for="inputFiltro"> Filtrar productos </label>
+      <input  id="inputFiltro" type="text" placeholder="Escribe un color o tipo" aria-label="Filtro de productos">
+      <button id="botonFiltro" aria-label="Aplicar filtro a los productos">Filtrar</button>
       <h1>Lista de productos </h1>
       <div id="lista-de-productos">
     </div>
